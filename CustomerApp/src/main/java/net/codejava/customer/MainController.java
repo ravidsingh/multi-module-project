@@ -16,5 +16,6 @@ public class MainController {
 		model.addAttribute("appName", appName);
 		
 		return "index";
+		
 	}
 }
