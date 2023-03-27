@@ -8,6 +8,8 @@ import net.codejava.lib.CommonUtil;
 
 @Controller
 public class MainController {
+	
+	// customer app controller
 	@GetMapping("")
 	public String viewHomePage(Model model) {
 		String appName = CommonUtil.getAppName();
