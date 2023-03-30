@@ -10,7 +10,7 @@ import net.codejava.lib.CommonUtil;
 public class MainController {
 	
 	
-	@GetMapping("")
+	@GetMapping("/customer")
 	public String viewHomePage(Model model) {
 		String appName = CommonUtil.getAppName();
 		
