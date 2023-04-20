@@ -8,7 +8,7 @@ import net.codejava.lib.CommonUtil;
 
 @Controller
 public class MainController {
-	// controller for admin apps
+	// controller for admin app
 	@GetMapping("/admin")
 	public String viewHomePage(Model model) {
 		String appName = CommonUtil.getAppName();
