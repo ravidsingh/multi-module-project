@@ -12,7 +12,6 @@ public class MainController {
 	@GetMapping("/admin")
 	public String viewHomePage(Model model) {
 		String appName = CommonUtil.getAppName();
-		
 		model.addAttribute("appName", appName);
 		
 		return "index";
