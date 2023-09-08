@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class AdminAppApplication {
-	//add comment 
+	//add comment
 	public static void main(String[] args) {
 		SpringApplication.run(AdminAppApplication.class, args);
 	}
